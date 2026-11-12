@@ -1,6 +1,6 @@
 import streamlit as st
 import plotly.express as px
-from utils.db_connector import run_query, init_db
+from db_connector import run_query, init_db
 
 init_db()
 
