@@ -284,8 +284,8 @@ html, body, [class*="css"], .stApp {
 @st.cache_data
 def load_data():
     kpi = pd.read_csv("indian_banks_kpi_ratios.csv")
-    income = pd.read_csv("data/indian_banks_income_statement.csv")
-    assets = pd.read_csv("data/indian_banks_assets_liabilities.csv")
+    income = pd.read_csv("indian_banks_income_statement.csv")
+    assets = pd.read_csv("indian_banks_assets_liabilities.csv")
     return kpi, income, assets
 
 kpi, income, assets = load_data()
